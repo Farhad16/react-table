@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.MuiAppBar-root {
+  background: rgb(78, 32, 158);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 32, 158, 1) 0%,
+    rgba(74, 29, 134, 1) 37%,
+    rgba(119, 31, 138, 1) 100%
+  ) !important;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(63, 62, 62, 0.8);
+  border-radius: 20px;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 14px;
+}
